@@ -1,0 +1,17 @@
+body{
+    background-image: url('./img/stu.png');   
+   }
+   #btn{
+    border: none;
+   background: none;
+  margin-top: 15px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 282px;
+   }
+   .btns{
+     display: inline;
+   }
+   #nxt{
+     margin-left: 1050px;
+   }

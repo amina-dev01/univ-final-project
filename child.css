@@ -1,0 +1,36 @@
+body{
+    background-image: url('./img/CHILD.png');
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-decoration: none;
+    margin-left: 500px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    
+}
+.lvl1{
+background-color: #AF6D49;
+height: 50px;
+width: 200px;
+text-align: center;
+color: white;
+font-size: 20px;
+font-weight: bold;
+border-radius: 50px;
+}
+.lvl2{
+    background-color: #AF6D49;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    }
+  *{
+    font-family: 'Open Sans', sans-serif;
+  }

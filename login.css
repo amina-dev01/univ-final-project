@@ -1,0 +1,57 @@
+body{
+    background-image: url('./img/BACK.png');
+     background-repeat: no-repeat;
+  }
+  form{
+      background-color: #CB997E;
+      height: 400px;
+      width: 550px;
+      margin: -50px 0px 0px 400px;
+      border-radius: 30px;
+  }
+  #us{
+      margin: 20px 0px 0px 245px;
+      
+  }
+  #user{
+      margin: 50px 110px 30px ;
+      padding: 10px;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid white;
+      background-color: #CB997E;
+      }
+      #pass{
+        margin: 0px 110px 40px;
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid white;
+        background-color: #CB997E;
+         }
+  #log
+    {   margin: 0px 220px 20px 220px;
+        background-color: white;
+        border: none;
+        color: #737373;
+        padding: 10px 25px;
+        text-decoration: none;
+        border-radius: 17px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #have{
+        margin: 0px 0px 0px 170px;
+        text-decoration: none;
+        color: black;
+        opacity: 50%;
+        }
+    ::placeholder{
+        color: white;
+        opacity: 70%;
+
+    }
+   *{
+    font-family: 'Open Sans', sans-serif;
+   }
+    

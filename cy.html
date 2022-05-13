@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LEVEL 1</title>
+    <link rel="stylesheet" href="cy.css" />
+    <a href="child.html" id="brand"><img src="./img/BRAND.png" /></a>
+  </head>
+  <body>
+    <div class="btn">
+      <audio id="A" src="./voice/y.mp3"></audio>
+      <button onclick="Playaudio1()" id="btn">
+        <img src="./img/audio.png" />
+      </button>
+      <audio id="B" src="./voice/z.mp3"></audio>
+      <button onclick="Playaudio2()" id="btn">
+        <img src="./img/audio.png" />
+      </button>
+    </div>
+    <div>
+      <a href="cv.html"><img id="prv" src="./img/prv.png" /></a>
+      <a href="aquiz.html"><img id="nxt" src="./img/nxt.png" /></a>
+    </div>
+    <script>
+      var audio1 = document.getElementById("A");
+      var audio2 = document.getElementById("B");
+      function Playaudio1() {
+        audio1.play();
+      }
+      function Playaudio2() {
+        audio2.play();
+      }
+    </script>
+  </body>
+</html>

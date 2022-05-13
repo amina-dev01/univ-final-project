@@ -1,0 +1,44 @@
+body{
+    background-image: url('./img/HOME.png');
+     background-repeat: no-repeat;
+  }
+     
+.nav{
+    display: inline;
+}
+.navbar{
+    margin: -127px 27px 0px 336px;
+}
+#log{
+    background-color: transparent;
+    border: none;
+    color: #65A2E7;
+    margin-right: 30px;    
+    text-decoration: none;
+}
+#sign{
+    background-color:#65A2E7 ;
+    border: none;
+    color: white;
+   margin-right: 500px;
+    padding: 7px 20px;
+    text-decoration: none;
+    border-radius: 17px;
+    
+}
+#contact{
+    background-color: white;
+    border: none;
+    color: #65A2E7;
+    padding: 7px 15px;
+    text-decoration: none;
+    border-radius: 17px;
+    }
+    
+ #cnt{
+     margin-top: -40px;
+     margin-left: 1185px;
+ }
+ *{
+    font-family: 'Open Sans', sans-serif;
+ }

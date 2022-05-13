@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LEVEL 1</title>
+    <link rel="stylesheet" href="cn.css" />
+    <a href="child.html" id="brand"><img src="./img/BRAND.png" /></a>
+  </head>
+  <body>
+    <div class="btn1">
+      <audio id="0" src="./voice/0.wav"></audio>
+      <button onclick="Playaudio0()" class="btn1 z">
+        <img src="./img/audio.png" />
+      </button>
+      <audio id="1" src="./voice/1.wav"></audio>
+      <button onclick="Playaudio1()" class="btn1 z">
+        <img src="./img/audio.png" />
+      </button>
+      <audio id="2" src="./voice/2.wav"></audio>
+      <button onclick="Playaudio2()" class="btn1 z">
+        <img src="./img/audio.png" />
+      </button>
+      <audio id="3" src="./voice/3.wav"></audio>
+      <button onclick="Playaudio3()" class="btn1 z">
+        <img src="./img/audio.png" />
+      </button>
+      <audio id="4" src="./voice/4.wav"></audio>
+      <button onclick="Playaudio4()" class="btn1 z">
+        <img src="./img/audio.png" />
+      </button>
+    </div>
+    <div class="btn2">
+      <audio id="5" src="./voice/5.wav"></audio>
+      <button onclick="Playaudio5()" class="btn2 f">
+        <img src="./img/audio.png" />
+      </button>
+      <audio id="6" src="./voice/6.wav"></audio>
+      <button onclick="Playaudio6()" class="btn2 f">
+        <img src="./img/audio.png" />
+      </button>
+      <audio id="7" src="./voice/7.wav"></audio>
+      <button onclick="Playaudio7()" class="btn2 f">
+        <img src="./img/audio.png" />
+      </button>
+      <audio id="8" src="./voice/8.wav"></audio>
+      <button onclick="Playaudio8()" class="btn2 f">
+        <img src="./img/audio.png" />
+      </button>
+      <audio id="9" src="./voice/9.wav"></audio>
+      <button onclick="Playaudio9()" class="btn2 f">
+        <img src="./img/audio.png" />
+      </button>
+    </div>
+    <a href="child.html"><img id="prv" src="./img/prv.png" /></a>
+    <a href="nquiz.html"><img id="nxt" src="./img/nxt.png" /></a>
+
+    <script>
+      var audio0 = document.getElementById("0");
+      var audio1 = document.getElementById("1");
+      var audio2 = document.getElementById("2");
+      var audio3 = document.getElementById("3");
+      var audio4 = document.getElementById("4");
+      var audio5 = document.getElementById("5");
+      var audio6 = document.getElementById("6");
+      var audio7 = document.getElementById("7");
+      var audio8 = document.getElementById("8");
+      var audio9 = document.getElementById("9");
+      function Playaudio0() {
+        audio0.play();
+      }
+      function Playaudio1() {
+        audio1.play();
+      }
+      function Playaudio2() {
+        audio2.play();
+      }
+      function Playaudio3() {
+        audio3.play();
+      }
+      function Playaudio4() {
+        audio4.play();
+      }
+      function Playaudio5() {
+        audio5.play();
+      }
+      function Playaudio6() {
+        audio6.play();
+      }
+      function Playaudio7() {
+        audio7.play();
+      }
+      function Playaudio8() {
+        audio8.play();
+      }
+      function Playaudio9() {
+        audio9.play();
+      }
+    </script>
+  </body>
+</html>
